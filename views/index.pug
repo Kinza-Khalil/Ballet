@@ -1,0 +1,42 @@
+doctype html 
+html
+  head 
+   style
+    include ../static/style.css
+body 
+  nav#navbar
+    ul  
+      div#logo
+        a(href="/") BALLET  
+      li #[a(href="/") Home] 
+      li #[a(href="/") Services] 
+      li #[a(href="/") Packages] 
+      li #[a(href="/") About]     
+      li #[a(href="/") Contact us]
+       
+  
+section#intro
+    div WELCOME TO DANCE ACADEMIA
+    div.small Create. Dance. Live.
+
+section#mission 
+    h2 Our Mission
+    div#first.card 
+      h3 Dance Perfection
+    div#second.card 
+      h3 Expert Teaching
+    div#third.card 
+      h3 Dance the way you like
+
+section#sponser 
+    h2 Our Sponsers 
+    #sponsers 
+      img(src="/static/logo1.png", alt="Sponser Image", class = "spImg")
+      img(src="/static/logo2.png", alt="Sponser Image", class = "spImg")
+      img(src="/static/logo3.png", alt="Sponser Image", class = "spImg")
+      img(src="/static/logo4.png", alt="Sponser Image", class = "spImg")
+footer#footer 
+        |  &#169 2022 Dance Academia.com | All rights reserved
+
+script 
+include ../static/index.js 

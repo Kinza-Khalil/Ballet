@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
+#logo{
+
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-right: 48px;
+    margin-left: 24px;
+ 
+}
+
+#logo a{
+    text-decoration: none;
+    color: white;
+}
+#logo a:hover{
+    color: #ffc0d8;
+}
+
+#logo img{
+    height: 50px;
+    filter: invert(1);
+    width: 40px;
+
+}
+
+#navbar{
+    background-color: #961647;
+    font-family: 'Montserrat', sans-serif;
+    padding: 14px 3px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    
+    
+}
+#navbar ul{
+    
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+    color: white; 
+}
+
+#navbar li a:hover{
+    color:   #ffc0d8; 
+ 
+}
+
+#intro{
+    color: #961647;
+    background: center/cover no-repeat url(/static/bg.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    font-size: 34px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    
+}
+
+#intro div.small{
+    font-size: 20px;
+
+}
+
+#mission{
+    height: 300px;
+}
+
+#mission h2{
+   
+   text-align: center;
+   padding-top: 17px;
+   color:#961647;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+.card{
+    
+    display: inline-block;
+    width: 30%;
+    margin: 23px 20px;
+    height: 210px;
+    opacity: 0.7;
+}
+
+
+
+.card h3{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 12px;
+    color: #961647;
+
+}
+
+#first{
+    background: center/cover no-repeat url(../static/bg3.jpg);
+    
+}
+
+#second{
+    background: center/cover no-repeat url(../static/first.jpg);
+
+}
+
+#third{
+    background: center/cover no-repeat url(../static/third.jpg);
+}
+
+.card:hover{
+    opacity: 1;
+}
+
+
+#sponser{
+    height: 250px;
+    background-color:  #961647;
+
+}
+
+
+#sponser h2{
+   text-align: center;
+   padding-top: 18px;
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+
+}
+
+#sponsers{
+    height: 150px;
+    max-width: 1000px;
+    margin: 27px auto;
+    margin-left: 376px;
+}
+
+.spImg{
+    height: 80px;
+    margin: 20px;
+    padding-top: 12px;
+
+}
+
+
+
+#footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:#961647;
+    height: 30px;
+    padding-top: 6px;
+
+
+}
